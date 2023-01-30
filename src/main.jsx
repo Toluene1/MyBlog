@@ -6,6 +6,7 @@ import "./index.css";
 import GlobalProvider from "./Provider/GlobalProvider";
 import DefaultLayout from "./Layout/Defaultlayout";
 import Signup from "./Pages/Signup";
+import Login from "./Pages/Login";
 
 const router = createBrowserRouter([
   {
@@ -17,10 +18,10 @@ const router = createBrowserRouter([
     path: "/signup",
     element: <Signup />,
   },
-  // {
-  //   path: "/login",
-  //   element: <Login />,
-  // },
+  {
+    path: "/login",
+    element: <Login />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

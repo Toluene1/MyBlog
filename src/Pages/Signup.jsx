@@ -71,7 +71,7 @@ const Signup = () => {
         <div className="loginDiv">
           <div className="divWithin">
             <img
-              src="https://cdn.wallpapersafari.com/43/59/OiVau9.jpg"
+              src="https://cdn.searchenginejournal.com/wp-content/uploads/2020/08/7-ways-a-blog-can-help-your-business-right-now-5f3c06b9eb24e-1280x720.png"
               alt=""
               className="imgSignup"
             />{" "}

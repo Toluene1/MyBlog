@@ -232,6 +232,7 @@ button:focus-visible {
 .imgLogin {
   width: 100%;
   border-radius: 20px;
+  margin-top: 33px;
 }
 
 .formColor {
