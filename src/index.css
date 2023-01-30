@@ -16,7 +16,7 @@
   -webkit-text-size-adjust: 100%;
 }
 
-/* a {
+a {
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
@@ -24,7 +24,7 @@
 
 a:hover {
   color: #535bf2;
-} */
+}
 
 body {
   margin: 0;
@@ -235,11 +235,11 @@ button:focus-visible {
 }
 
 .formColor {
-  background-color: navy;
+  background-color: rgb(94, 91, 91);
 }
 
 .colorRandom {
-  color: navy;
+  color: rgb(94, 91, 91);
 }
 
 .colorTextForm {
@@ -253,7 +253,7 @@ button:focus-visible {
 }
 
 .btnForm:hover {
-  background-color: navy;
+  background-color: rgb(94, 91, 91);
   color: aliceblue;
 }
 
@@ -279,17 +279,13 @@ button:focus-visible {
 }
 
 .imgTravel1 {
-  width: 100%;
+  width: 80%;
   height: 270px;
   border-radius: 20px 20px 0px 0px;
 }
 
 .shadowDivs {
   transition: 0.3s;
-}
-
-.shadowDivs:hover {
-  box-shadow: 5px 5px lightgray;
 }
 
 .pWithin {
