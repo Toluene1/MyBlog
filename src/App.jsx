@@ -1,16 +1,13 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
+import DefaultLayout from "./Layout/Defaultlayout";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <section>
-      <main>
-        <h1>Tolu</h1>
-      </main>
-    </section>
+    <DefaultLayout>
+      <h1>Tolu</h1>
+    </DefaultLayout>
   );
 }
 
